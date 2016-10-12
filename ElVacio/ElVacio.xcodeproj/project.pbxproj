@@ -14,6 +14,11 @@
 		041AFCC61DADCE9200BFAEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041AFCC41DADCE9200BFAEDF /* LaunchScreen.storyboard */; };
 		041AFCD11DADCE9200BFAEDF /* ElVacioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AFCD01DADCE9200BFAEDF /* ElVacioTests.swift */; };
 		041AFCDC1DADCE9300BFAEDF /* ElVacioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AFCDB1DADCE9300BFAEDF /* ElVacioUITests.swift */; };
+		041AFCED1DADCF8800BFAEDF /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041AFCEA1DADCF8800BFAEDF /* Metal.framework */; };
+		041AFCEE1DADCF8800BFAEDF /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041AFCEB1DADCF8800BFAEDF /* MetalKit.framework */; };
+		041AFCF41DADE43600BFAEDF /* SelfAwareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AFCF31DADE43600BFAEDF /* SelfAwareness.swift */; };
+		041AFCF91DADF6DD00BFAEDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041AFCF81DADF6DD00BFAEDF /* QuartzCore.framework */; };
+		041AFCFC1DAE081D00BFAEDF /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 041AFCFB1DAE081D00BFAEDF /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,13 @@
 		041AFCD71DADCE9300BFAEDF /* ElVacioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElVacioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041AFCDB1DADCE9300BFAEDF /* ElVacioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElVacioUITests.swift; sourceTree = "<group>"; };
 		041AFCDD1DADCE9300BFAEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041AFCEA1DADCF8800BFAEDF /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		041AFCEB1DADCF8800BFAEDF /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		041AFCEC1DADCF8800BFAEDF /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
+		041AFCF31DADE43600BFAEDF /* SelfAwareness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelfAwareness.swift; path = Models/SelfAwareness.swift; sourceTree = "<group>"; };
+		041AFCF71DADEE2A00BFAEDF /* BridgeHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeaderFile.h; sourceTree = "<group>"; };
+		041AFCF81DADF6DD00BFAEDF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		041AFCFB1DAE081D00BFAEDF /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = Shaders.metal; path = Shaders/Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041AFCF91DADF6DD00BFAEDF /* QuartzCore.framework in Frameworks */,
+				041AFCED1DADCF8800BFAEDF /* Metal.framework in Frameworks */,
+				041AFCEE1DADCF8800BFAEDF /* MetalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 				041AFCCF1DADCE9200BFAEDF /* ElVacioTests */,
 				041AFCDA1DADCE9300BFAEDF /* ElVacioUITests */,
 				041AFCB91DADCE9200BFAEDF /* Products */,
+				041AFCE91DADCF8800BFAEDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +113,14 @@
 		041AFCBA1DADCE9200BFAEDF /* ElVacio */ = {
 			isa = PBXGroup;
 			children = (
+				041AFCFA1DAE07F000BFAEDF /* Shaders */,
+				041AFCF11DADE39300BFAEDF /* Storyboards */,
+				041AFCF01DADE38300BFAEDF /* Classes */,
 				041AFCBB1DADCE9200BFAEDF /* AppDelegate.swift */,
 				041AFCBD1DADCE9200BFAEDF /* ViewController.swift */,
-				041AFCBF1DADCE9200BFAEDF /* Main.storyboard */,
 				041AFCC21DADCE9200BFAEDF /* Assets.xcassets */,
-				041AFCC41DADCE9200BFAEDF /* LaunchScreen.storyboard */,
 				041AFCC71DADCE9200BFAEDF /* Info.plist */,
+				041AFCF71DADEE2A00BFAEDF /* BridgeHeaderFile.h */,
 			);
 			path = ElVacio;
 			sourceTree = "<group>";
@@ -123,6 +141,42 @@
 				041AFCDD1DADCE9300BFAEDF /* Info.plist */,
 			);
 			path = ElVacioUITests;
+			sourceTree = "<group>";
+		};
+		041AFCE91DADCF8800BFAEDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041AFCF81DADF6DD00BFAEDF /* QuartzCore.framework */,
+				041AFCEA1DADCF8800BFAEDF /* Metal.framework */,
+				041AFCEB1DADCF8800BFAEDF /* MetalKit.framework */,
+				041AFCEC1DADCF8800BFAEDF /* MetalPerformanceShaders.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041AFCF01DADE38300BFAEDF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				041AFCF31DADE43600BFAEDF /* SelfAwareness.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		041AFCF11DADE39300BFAEDF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				041AFCC41DADCE9200BFAEDF /* LaunchScreen.storyboard */,
+				041AFCBF1DADCE9200BFAEDF /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		041AFCFA1DAE07F000BFAEDF /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				041AFCFB1DAE081D00BFAEDF /* Shaders.metal */,
+			);
+			name = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,11 +252,13 @@
 					};
 					041AFCCB1DADCE9200BFAEDF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N7T3D3XZJC;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 041AFCB71DADCE9200BFAEDF;
 					};
 					041AFCD61DADCE9300BFAEDF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N7T3D3XZJC;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 041AFCB71DADCE9200BFAEDF;
 					};
@@ -260,7 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041AFCFC1DAE081D00BFAEDF /* Shaders.metal in Sources */,
 				041AFCBE1DADCE9200BFAEDF /* ViewController.swift in Sources */,
+				041AFCF41DADE43600BFAEDF /* SelfAwareness.swift in Sources */,
 				041AFCBC1DADCE9200BFAEDF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,9 +414,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "ElVacio Debug ";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -400,8 +458,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = ElVacio;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,6 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ElVacio/BridgeHeaderFile.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -431,6 +491,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ElVacio/BridgeHeaderFile.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -440,6 +501,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N7T3D3XZJC;
 				INFOPLIST_FILE = ElVacioTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacioTests;
@@ -454,6 +516,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N7T3D3XZJC;
 				INFOPLIST_FILE = ElVacioTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacioTests;
@@ -467,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N7T3D3XZJC;
 				INFOPLIST_FILE = ElVacioUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacioUITests;
@@ -480,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N7T3D3XZJC;
 				INFOPLIST_FILE = ElVacioUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacioUITests;
