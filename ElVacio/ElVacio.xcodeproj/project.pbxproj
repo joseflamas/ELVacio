@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041AFCBC1DADCE9200BFAEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AFCBB1DADCE9200BFAEDF /* AppDelegate.swift */; };
+		041AFCBE1DADCE9200BFAEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AFCBD1DADCE9200BFAEDF /* ViewController.swift */; };
+		041AFCC11DADCE9200BFAEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041AFCBF1DADCE9200BFAEDF /* Main.storyboard */; };
+		041AFCC31DADCE9200BFAEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041AFCC21DADCE9200BFAEDF /* Assets.xcassets */; };
+		041AFCC61DADCE9200BFAEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041AFCC41DADCE9200BFAEDF /* LaunchScreen.storyboard */; };
+		041AFCD11DADCE9200BFAEDF /* ElVacioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AFCD01DADCE9200BFAEDF /* ElVacioTests.swift */; };
+		041AFCDC1DADCE9300BFAEDF /* ElVacioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AFCDB1DADCE9300BFAEDF /* ElVacioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041AFCCD1DADCE9200BFAEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041AFCB01DADCE9200BFAEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041AFCB71DADCE9200BFAEDF;
+			remoteInfo = ElVacio;
+		};
+		041AFCD81DADCE9300BFAEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041AFCB01DADCE9200BFAEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041AFCB71DADCE9200BFAEDF;
+			remoteInfo = ElVacio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041AFCB81DADCE9200BFAEDF /* ElVacio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElVacio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041AFCBB1DADCE9200BFAEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041AFCBD1DADCE9200BFAEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041AFCC01DADCE9200BFAEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041AFCC21DADCE9200BFAEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041AFCC51DADCE9200BFAEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041AFCC71DADCE9200BFAEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041AFCCC1DADCE9200BFAEDF /* ElVacioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElVacioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041AFCD01DADCE9200BFAEDF /* ElVacioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElVacioTests.swift; sourceTree = "<group>"; };
+		041AFCD21DADCE9200BFAEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041AFCD71DADCE9300BFAEDF /* ElVacioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElVacioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041AFCDB1DADCE9300BFAEDF /* ElVacioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElVacioUITests.swift; sourceTree = "<group>"; };
+		041AFCDD1DADCE9300BFAEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041AFCB51DADCE9200BFAEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041AFCC91DADCE9200BFAEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041AFCD41DADCE9300BFAEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041AFCAF1DADCE9200BFAEDF = {
+			isa = PBXGroup;
+			children = (
+				041AFCBA1DADCE9200BFAEDF /* ElVacio */,
+				041AFCCF1DADCE9200BFAEDF /* ElVacioTests */,
+				041AFCDA1DADCE9300BFAEDF /* ElVacioUITests */,
+				041AFCB91DADCE9200BFAEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041AFCB91DADCE9200BFAEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041AFCB81DADCE9200BFAEDF /* ElVacio.app */,
+				041AFCCC1DADCE9200BFAEDF /* ElVacioTests.xctest */,
+				041AFCD71DADCE9300BFAEDF /* ElVacioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041AFCBA1DADCE9200BFAEDF /* ElVacio */ = {
+			isa = PBXGroup;
+			children = (
+				041AFCBB1DADCE9200BFAEDF /* AppDelegate.swift */,
+				041AFCBD1DADCE9200BFAEDF /* ViewController.swift */,
+				041AFCBF1DADCE9200BFAEDF /* Main.storyboard */,
+				041AFCC21DADCE9200BFAEDF /* Assets.xcassets */,
+				041AFCC41DADCE9200BFAEDF /* LaunchScreen.storyboard */,
+				041AFCC71DADCE9200BFAEDF /* Info.plist */,
+			);
+			path = ElVacio;
+			sourceTree = "<group>";
+		};
+		041AFCCF1DADCE9200BFAEDF /* ElVacioTests */ = {
+			isa = PBXGroup;
+			children = (
+				041AFCD01DADCE9200BFAEDF /* ElVacioTests.swift */,
+				041AFCD21DADCE9200BFAEDF /* Info.plist */,
+			);
+			path = ElVacioTests;
+			sourceTree = "<group>";
+		};
+		041AFCDA1DADCE9300BFAEDF /* ElVacioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				041AFCDB1DADCE9300BFAEDF /* ElVacioUITests.swift */,
+				041AFCDD1DADCE9300BFAEDF /* Info.plist */,
+			);
+			path = ElVacioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041AFCB71DADCE9200BFAEDF /* ElVacio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041AFCE01DADCE9300BFAEDF /* Build configuration list for PBXNativeTarget "ElVacio" */;
+			buildPhases = (
+				041AFCB41DADCE9200BFAEDF /* Sources */,
+				041AFCB51DADCE9200BFAEDF /* Frameworks */,
+				041AFCB61DADCE9200BFAEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElVacio;
+			productName = ElVacio;
+			productReference = 041AFCB81DADCE9200BFAEDF /* ElVacio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041AFCCB1DADCE9200BFAEDF /* ElVacioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041AFCE31DADCE9300BFAEDF /* Build configuration list for PBXNativeTarget "ElVacioTests" */;
+			buildPhases = (
+				041AFCC81DADCE9200BFAEDF /* Sources */,
+				041AFCC91DADCE9200BFAEDF /* Frameworks */,
+				041AFCCA1DADCE9200BFAEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041AFCCE1DADCE9200BFAEDF /* PBXTargetDependency */,
+			);
+			name = ElVacioTests;
+			productName = ElVacioTests;
+			productReference = 041AFCCC1DADCE9200BFAEDF /* ElVacioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		041AFCD61DADCE9300BFAEDF /* ElVacioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041AFCE61DADCE9300BFAEDF /* Build configuration list for PBXNativeTarget "ElVacioUITests" */;
+			buildPhases = (
+				041AFCD31DADCE9300BFAEDF /* Sources */,
+				041AFCD41DADCE9300BFAEDF /* Frameworks */,
+				041AFCD51DADCE9300BFAEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041AFCD91DADCE9300BFAEDF /* PBXTargetDependency */,
+			);
+			name = ElVacioUITests;
+			productName = ElVacioUITests;
+			productReference = 041AFCD71DADCE9300BFAEDF /* ElVacioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041AFCB01DADCE9200BFAEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SrM;
+				TargetAttributes = {
+					041AFCB71DADCE9200BFAEDF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N7T3D3XZJC;
+						ProvisioningStyle = Automatic;
+					};
+					041AFCCB1DADCE9200BFAEDF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 041AFCB71DADCE9200BFAEDF;
+					};
+					041AFCD61DADCE9300BFAEDF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 041AFCB71DADCE9200BFAEDF;
+					};
+				};
+			};
+			buildConfigurationList = 041AFCB31DADCE9200BFAEDF /* Build configuration list for PBXProject "ElVacio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041AFCAF1DADCE9200BFAEDF;
+			productRefGroup = 041AFCB91DADCE9200BFAEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041AFCB71DADCE9200BFAEDF /* ElVacio */,
+				041AFCCB1DADCE9200BFAEDF /* ElVacioTests */,
+				041AFCD61DADCE9300BFAEDF /* ElVacioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041AFCB61DADCE9200BFAEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041AFCC61DADCE9200BFAEDF /* LaunchScreen.storyboard in Resources */,
+				041AFCC31DADCE9200BFAEDF /* Assets.xcassets in Resources */,
+				041AFCC11DADCE9200BFAEDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041AFCCA1DADCE9200BFAEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041AFCD51DADCE9300BFAEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041AFCB41DADCE9200BFAEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041AFCBE1DADCE9200BFAEDF /* ViewController.swift in Sources */,
+				041AFCBC1DADCE9200BFAEDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041AFCC81DADCE9200BFAEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041AFCD11DADCE9200BFAEDF /* ElVacioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041AFCD31DADCE9300BFAEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041AFCDC1DADCE9300BFAEDF /* ElVacioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041AFCCE1DADCE9200BFAEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041AFCB71DADCE9200BFAEDF /* ElVacio */;
+			targetProxy = 041AFCCD1DADCE9200BFAEDF /* PBXContainerItemProxy */;
+		};
+		041AFCD91DADCE9300BFAEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041AFCB71DADCE9200BFAEDF /* ElVacio */;
+			targetProxy = 041AFCD81DADCE9300BFAEDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041AFCBF1DADCE9200BFAEDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041AFCC01DADCE9200BFAEDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041AFCC41DADCE9200BFAEDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041AFCC51DADCE9200BFAEDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041AFCDE1DADCE9300BFAEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041AFCDF1DADCE9300BFAEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041AFCE11DADCE9300BFAEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7T3D3XZJC;
+				INFOPLIST_FILE = ElVacio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		041AFCE21DADCE9300BFAEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7T3D3XZJC;
+				INFOPLIST_FILE = ElVacio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		041AFCE41DADCE9300BFAEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElVacioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElVacio.app/ElVacio";
+			};
+			name = Debug;
+		};
+		041AFCE51DADCE9300BFAEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElVacioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElVacio.app/ElVacio";
+			};
+			name = Release;
+		};
+		041AFCE71DADCE9300BFAEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ElVacioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ElVacio;
+			};
+			name = Debug;
+		};
+		041AFCE81DADCE9300BFAEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ElVacioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SrM.ElVacioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ElVacio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041AFCB31DADCE9200BFAEDF /* Build configuration list for PBXProject "ElVacio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041AFCDE1DADCE9300BFAEDF /* Debug */,
+				041AFCDF1DADCE9300BFAEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041AFCE01DADCE9300BFAEDF /* Build configuration list for PBXNativeTarget "ElVacio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041AFCE11DADCE9300BFAEDF /* Debug */,
+				041AFCE21DADCE9300BFAEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		041AFCE31DADCE9300BFAEDF /* Build configuration list for PBXNativeTarget "ElVacioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041AFCE41DADCE9300BFAEDF /* Debug */,
+				041AFCE51DADCE9300BFAEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		041AFCE61DADCE9300BFAEDF /* Build configuration list for PBXNativeTarget "ElVacioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041AFCE71DADCE9300BFAEDF /* Debug */,
+				041AFCE81DADCE9300BFAEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041AFCB01DADCE9200BFAEDF /* Project object */;
+}
